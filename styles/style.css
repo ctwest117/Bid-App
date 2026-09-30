@@ -25,6 +25,7 @@ body {
     flex-direction: column;
     align-items: stretch;
     gap: 24px;
+    font-size: 1.1rem;
     background: #fff;
     border: 1px solid #e4e7e1;
     border-radius: 16px;
@@ -36,14 +37,16 @@ h1, h2, p {
 }
 
 h1 {
-    font-size: 1.5rem;
+    text-align: center;
+    font-size: 1.8rem;
     letter-spacing: -0.04em;
 }
 
 h2 {
     margin-bottom: 12px;
+    text-align: center;
     color: #62685f;
-    font-size: 0.8rem;
+    font-size: 1rem;
     font-weight: 600;
     letter-spacing: 0.08em;
     text-transform: uppercase;
@@ -65,6 +68,7 @@ h2 {
     overflow-y: auto;
     list-style: none;
     border-top: 1px solid #eceeea;
+    font-size: 1rem;
 }
 
 #bid-history li {
@@ -95,7 +99,7 @@ h2 {
 
 label {
     color: #62685f;
-    font-size: 0.9rem;
+    font-size: 1rem;
 }
 
 input, button {
@@ -116,7 +120,7 @@ button {
     background: #26382d;
     border-color: #26382d;
     color: #fff;
-    font-size: 0.85rem;
+    font-size: 1rem;
     font-weight: 600;
 }
 
@@ -125,7 +129,7 @@ button:hover {
 }
 
 #bids-clear {
-    justify-self: start;
+    justify-self: center;
     background: transparent;
     border-color: #dfe3dc;
     color: #62685f;
